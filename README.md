@@ -3,6 +3,18 @@
 bstest is a Django project for testing Bootstrap 4 (or whichever version of
 bootstrap you install). *I created this from Treehouse course in Bootstrap 4 in Fall 2017. Lots of good boostrap examples here.*
 
+### Django debug toolbar:
+
+Django debug toolbar is nice Django app for development
+
+### Django layout.html:
+
+The templates folder has index.html, which in Django terms "extends"  layout.html. You find the <link> to bootstrapcdn.com in layout.html, but the interesting bootstrap code is in index.html
+
+### Warning, this is not a static site:
+
+You have to download Python and install Django and Django apps to use this site as below
+
 ### Instructions for unix/aix command line:
 
 1. clone this repo ... see GitHub docs ... git clone <URL for this repo>

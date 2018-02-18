@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+
+{% block body_content %}
+			<div class="landing-header" style="background-image: url('{% static "img/jump.jpg" %}');">
+				<div class="container">
+					<div class="motto">
+						<h1 class="title-uppercase">Tagshine</h1>
+						<h3>What are your hashtags? Shine some light on your tags!</h3>
+						<h5>Your tags are dreams you share to build online communities!</h5>
+						<br />
+						<a class="btn" href="#">Sign Up For Password Login</a>						
+						<a class="btn" href="#">Sign Up For GitHub Login</a>
+				        <a class="btn" href="#">Sign Up For Facebook Login</a>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="section text-center landing-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<h3>Why live in a Reality Bubble?<br>Break out with Tagshine!</h3>
+								<h5>Be in a social network that brings people together!</h5>
+								<br />
+                           <!-- <a href="{ % provider_login_url 'github' % }" class="btn btn-danger btn-fill">Sign Up!</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section section-light-brown landing-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 column">
+								<h4>Communities</h4>
+								<p>Post messages in communities built around hashtags, symbols, dreams, or <i>tags</i>.</p>
+                           <!-- <a class="btn btn-danger btn-simple" href="{ % provider_login_url 'github' % }">Sign Up!</a> -->
+							</div>
+							<div class="col-md-4 column">
+								<h4>Be yourself</h4>
+								<p>Tagshine is where people with similar <i>tags</i> meet. Tags refer to hashtags, symbols, or any word that seems to convey a deeper reality that connects us all.</p>
+                           <!-- <a class="btn btn-danger btn-simple" href="{ % provider_login_url 'github' % }">Sign Up!</a> -->
+							</div>
+							<div class="col-md-4 column">
+								<h4>Tagshine</h4>
+								<p>Share your tags, share your dreams, find people that understand what you really mean.</p>
+                           <!-- <a class="btn btn-danger btn-simple" href="{ % provider_login_url 'github' % }">Sign Up!</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+{% endblock %}
+

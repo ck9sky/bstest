@@ -1,0 +1,18 @@
+
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+}
+
+.jumbotron {
+	background-image: url('../img/jumbo-bg.jpg');	
+	background-size: cover;
+	/* In url() function above we pass a relative directory path (relative to this file).  */
+	/* More examples of CSS url() function below. Note to use a full URL it seems you must */
+  /* still use the url() function. I tried passing the full url, no luck, must use url() */
+  /* Compare a full URL in CSS to a 'full' URL in Django, index.html, my commented out   */
+  /* <img> example full url src="/static/img/pdx.jpg". i.e. "full URL" meaning varies.   */
+  /* background-image: url('http://127.0.0.1:8000/static/img/jumbo-bg.jpg'); */
+	/* background-image: url('../img/pdx.jpg'); */
+  /* background-image: url('http://127.0.0.1:8000/static/img/pdx.jpg'); */
+}

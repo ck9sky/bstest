@@ -9,7 +9,7 @@ Django debug toolbar is nice Django app for development
 
 ### Django layout.html:
 
-The templates folder has index.html, which in Django terms "extends"  layout.html. You find the <link> to bootstrapcdn.com in layout.html, but the interesting bootstrap code is in index.html
+The templates folder has index.html, which in Django terms "extends"  layout.html. You find the < link > to bootstrapcdn.com in layout.html, but the interesting bootstrap code is in index.html
 
 ### Warning, this is not a static site:
 
